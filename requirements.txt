@@ -1,0 +1,6 @@
+name: PPO_Tutorial
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+prefix: E:\Anaconda\envs\PPO_Tutorial
