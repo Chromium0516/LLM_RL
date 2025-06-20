@@ -186,7 +186,7 @@ def train_ppo():
     
     agent = PPOAgent(state_dim, action_dim)
     
-    max_episodes = 18000
+    max_episodes = 200
     max_timesteps = 8000
     update_timestep = 1000
     
@@ -291,14 +291,14 @@ def save_training_data(episode_rewards, policy_losses, value_losses):
         'policy_losses': policy_losses,
         'value_losses': value_losses
     }
-    np.save('training_data.npy', training_data)
+    np.save('./data/training_data.npy', training_data)
     print("训练数据已保存为 training_data.npy")
 
 if __name__ == "__main__":
     # 创建保存目录
     os.makedirs('models', exist_ok=True)
     os.makedirs('results', exist_ok=True)
-    
+    os.makedirs('data', exist_ok=True)
     # 训练智能体
     trained_agent, episode_rewards, policy_losses, value_losses = train_ppo()
     
