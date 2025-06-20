@@ -20,6 +20,11 @@ python train.py
 ### 模型保存在`./models`目录下
 ### 训练数据保存在`./data`目录下
 
+# 模型文件
+### 通过网盘分享的文件：ppo_cartpole_model.pth
+### 链接: https://pan.baidu.com/s/162yaG0WIpzpAlkOFRB5Aog?pwd=1234 提取码: 1234 
+
+
 ---
 
 # 效果
