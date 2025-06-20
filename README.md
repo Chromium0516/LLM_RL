@@ -29,5 +29,5 @@ python train.py
 
 # 效果
 <div align="center">
-  <img src="https://github.com/Chromium0516/LLM_RL/blob/PPO_pendulum/results/test_episode_1.gif" alt="PPO Pendulum Demo">
+  <img src="https://github.com/Chromium0516/LLM_RL/blob/main/results/test_episode_1.gif" alt="PPO CartPole Demo">
 </div>
